@@ -288,24 +288,6 @@
   font-family: PixelPetit;
 }
 
-
-/* put a nice logo in my server's channel list */
-.theme-dark [data-list-item-id="channels___554914403011526675"] .name_a08117,
-.theme-light .theme-dark [data-list-item-id="channels___554914403011526675"] .name_a08117,
-.theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
-  font-size: 0;
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_white.svg);
-  background-size: 54px 13px;
-  width: 54px;
-  height: 13px;
-  opacity: 0.65;
-  color: transparent;
-}
-
-.theme-light [data-list-item-id="channels___554914403011526675"] .name_a08117 {
-  background: no-repeat url(//plusinsta.github.io/discord-plus/assets/wordmark_black.svg);
-}
-
 [data-list-item-id="channels___554914403011526675"]:hover .name_a08117 {
   opacity: 0.75
 }
@@ -404,16 +386,16 @@
 }
 
 /* D+ badge in member list */
-/* .username_a31c43:after {
+.username_a31c43:after {
   content: var(--dplus-dev, var(--dplus-supporter));
   background-image: var(--dplus-badge-memberlist);
   margin-left: 3px;
   display: inline-block;
   width: 14px; height: 14px;
-} */
+}
 
-/* .theme-dark { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg"); }
-.theme-light { --dplus-badge-memberlist: url("https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg"); } */
+.theme-dark { --dplus-badge-memberlist: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg); }
+.theme-light { --dplus-badge-memberlist: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg); }
 
 /* Badge for Michelle */
 .userProfileModalInner_c69a7b:has([src*="220275692926009344"]) .text-lg-semibold__84aef:after {
