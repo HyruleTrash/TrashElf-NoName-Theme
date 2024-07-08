@@ -1313,6 +1313,11 @@ that have popups, or else the menu breaks when you hover over them */
 	background-position: center;
 }
 
+.childWrapperNoHoverBg_f90abb {
+	width: 70px;
+	height: 70px;
+}
+
 .theme-light .tutorialContainer_f9623d .childWrapper_f90abb {
 	background-image: var(--dplus-icon-home-light);
 }
