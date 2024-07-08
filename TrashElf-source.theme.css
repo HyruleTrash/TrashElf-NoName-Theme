@@ -1287,7 +1287,7 @@ that have popups, or else the menu breaks when you hover over them */
 .circleIconButton_db6521.selected_db6521,
 #app-mount .childWrapper_f90abb:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
-	border: 10px solid var(--dplus-bgc-server-button-hover)!important;
+	border: 10px solid var(--dplus-bgc-server-button-hover);
 }
 
 /*-- 10.2 Home Icon --*/
@@ -1299,7 +1299,7 @@ that have popups, or else the menu breaks when you hover over them */
 	display: none !important;
 }
 
-.tutorialContainer_f9623d > .childWrapper_f90abb{
+.childWrapper_f90abb{
 	width: 30px;
     height: 30px;
     border: 10px solid var(--brand-500);
@@ -1309,6 +1309,7 @@ that have popups, or else the menu breaks when you hover over them */
 .wrapper__8436d:hover .childWrapper_f90abb,
 .childWrapper_f90abb {
 	background-color: transparent;
+    border: 10px solid transparent;
 }
 
 .theme-dark .tutorialContainer_f9623d .childWrapper_f90abb,
@@ -2675,12 +2676,4 @@ html[style^="font-size: 93.75%;"] {
 
 .groupStart_d5deea{
 	min-height: 80px !important;
-}
-
-.userProfileInner_c69a7b:before{
-	background-color: var(--bg-overlay-app-frame,var(--background-tertiary));
-}
-
-.wrapper_c721cc{
-	display: none;
 }
