@@ -1299,6 +1299,10 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 .childWrapper_f90abb{
+	width: 48px;
+	height: 48px;
+	min-height: 48px;
+	min-width: 48px;
 	transform: scale(1.2);
 }
 
