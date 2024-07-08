@@ -1298,6 +1298,10 @@ that have popups, or else the menu breaks when you hover over them */
 	display: none !important;
 }
 
+.childWrapper_f90abb{
+	transform: scale(1.2);
+}
+
 .wrapper__8436d.selected_ae80f7 .childWrapper_f90abb,
 .wrapper__8436d:hover .childWrapper_f90abb,
 .childWrapper_f90abb {
@@ -1311,11 +1315,6 @@ that have popups, or else the menu breaks when you hover over them */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-}
-
-.childWrapperNoHoverBg_f90abb {
-	width: 70px;
-	height: 70px;
 }
 
 .theme-light .tutorialContainer_f9623d .childWrapper_f90abb {
