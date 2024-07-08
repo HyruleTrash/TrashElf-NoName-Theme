@@ -1287,6 +1287,7 @@ that have popups, or else the menu breaks when you hover over them */
 .circleIconButton_db6521.selected_db6521,
 #app-mount .childWrapper_f90abb:hover {
 	background-color: var(--dplus-bgc-server-button-hover);
+	border: 10px solid var(--dplus-bgc-server-button-hover)!important;
 }
 
 /*-- 10.2 Home Icon --*/
@@ -1298,11 +1299,10 @@ that have popups, or else the menu breaks when you hover over them */
 	display: none !important;
 }
 
-.childWrapper_f90abb{
-	width: 48px;
-	height: 48px;
-	min-height: 48px;
-	min-width: 48px;
+.tutorialContainer_f9623d > .childWrapper_f90abb{
+	width: 30px;
+    height: 30px;
+    border: 10px solid var(--brand-500);
 }
 
 .wrapper__8436d.selected_ae80f7 .childWrapper_f90abb,
@@ -2671,4 +2671,16 @@ html[style^="font-size: 93.75%;"] {
 	background: var(--dplus-accent-ui) !important;
 	border-radius: var(--dplus-radius-ui) !important;
 	box-shadow: none !important;
+}
+
+.groupStart_d5deea{
+	min-height: 80px !important;
+}
+
+.userProfileInner_c69a7b:before{
+	background-color: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+
+.wrapper_c721cc{
+	display: none;
 }
