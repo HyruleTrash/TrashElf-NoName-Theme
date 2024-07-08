@@ -1303,7 +1303,6 @@ that have popups, or else the menu breaks when you hover over them */
 	height: 48px;
 	min-height: 48px;
 	min-width: 48px;
-	transform: scale(1.2);
 }
 
 .wrapper__8436d.selected_ae80f7 .childWrapper_f90abb,
