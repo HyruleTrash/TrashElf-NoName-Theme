@@ -1233,10 +1233,10 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 /*removes the radius on unread message pill*/
-.guilds_a4d4d9,
+/* .guilds_a4d4d9,
 .listItem_c96c45 {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
-}
+} */
 
 .wrapper_c5f96a,
 .wrapper_c5f96a svg {
@@ -1244,9 +1244,9 @@ that have popups, or else the menu breaks when you hover over them */
 	width: var(--dplus-icon-server-sidebar);
 }
 
-.listItem_c96c45 {
+/* .listItem_c96c45 {
 	margin: 0 0 var(--dplus-spacing-ui);
-}
+} */
 
 .expandedFolderBackground_bc7085 {
 	width: var(--dplus-icon-server-sidebar);
