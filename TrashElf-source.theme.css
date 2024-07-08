@@ -1084,6 +1084,13 @@ that have popups, or else the menu breaks when you hover over them */
 .bannerImage_fd6364 {
 	width: var(--dplus-channels-width);
 }
+.wrapper_fea3ef {
+    width: var(--dplus-channels-width)
+}
+.scrollerWrap-1IAIlv {
+    width: calc(var(--dplus-channels-width) + 6px)
+}
+
 .sidebar_a4d4d9 {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: var(--dplus-radius-ui) !important;
