@@ -394,8 +394,8 @@
   width: 14px; height: 14px;
 }
 
-.theme-dark { --dplus-badge-memberlist: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg); }
-.theme-light { --dplus-badge-memberlist: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg); }
+.theme-dark { --dplus-badge-memberlist: url(https://hyruletrash.github.io/TrashElf-NoName-Theme/discord-icon.svg); }
+.theme-light { --dplus-badge-memberlist: url(https://hyruletrash.github.io/TrashElf-NoName-Theme/discord-icon.svg); }
 
 /* Badge for Michelle */
 .userProfileModalInner_c69a7b:has([src*="220275692926009344"]) .text-lg-semibold__84aef:after {

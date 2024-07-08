@@ -79,8 +79,8 @@
 */
 
 /*--- 1 imports ---*/
-@import url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/TrashElf-plugins.theme.css);
-@import url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/TrashElf-extras.theme.css);
+@import url(https://hyruletrash.github.io/TrashElf-NoName-Theme/TrashElf-plugins.theme.css);
+@import url(https://hyruletrash.github.io/TrashElf-NoName-Theme/TrashElf-extras.theme.css);
 /* Main fonts */
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
 /* Localized fonts */
@@ -194,8 +194,8 @@
 	--dplus-spacing-app: 10px;
 
 	/* Icons */
-	--dplus-icon-home-dark: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg);
-	--dplus-icon-home-light: url(https://raw.githubusercontent.com/HyruleTrash/TrashElf-NoName-Theme/main/discord-icon.svg);
+	--dplus-icon-home-dark: url(https://hyruletrash.github.io/TrashElf-NoName-Theme/discord-icon.svg);
+	--dplus-icon-home-light: url(https://hyruletrash.github.io/TrashElf-NoName-Theme/discord-icon.svg);
 
 	/* Icon sizes*/
 	--dplus-icon-avatar-chat: 64px;
