@@ -2677,3 +2677,7 @@ html[style^="font-size: 93.75%;"] {
 .groupStart_d5deea{
 	min-height: 80px !important;
 }
+
+.wrapper_c721cc {
+	display: none;
+}
