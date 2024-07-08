@@ -1192,10 +1192,10 @@ that have popups, or else the menu breaks when you hover over them */
 }
 
 /*-- 9.2 MacOS Buttons --*/
-.typeMacOS_a934d8 {
+/* .typeMacOS_a934d8 {
 	background: var(--dplus-bgc-ui-base);
 	border-radius: 0 0 var(--dplus-radius-ui) 0;
-}
+} */
 
 .platform-osx .guilds_a4d4d9 {
 	padding-top: 8px;
@@ -1234,9 +1234,9 @@ that have popups, or else the menu breaks when you hover over them */
 
 /*removes the radius on unread message pill*/
 .guilds_a4d4d9,
-.listItem_c96c45 {
+/* .listItem_c96c45 {
 	width: calc(var(--dplus-icon-server-sidebar) + var(--dplus-spacing-ui) * 2);
-}
+} */
 
 .wrapper_c5f96a,
 .wrapper_c5f96a svg {
