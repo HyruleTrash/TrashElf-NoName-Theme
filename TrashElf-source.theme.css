@@ -1627,6 +1627,13 @@ that have popups, or else the menu breaks when you hover over them */
 	border-radius: 0 0 var(--dplus-radius-ui) var(--dplus-radius-ui);
 }
 
+.messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .message_d5deea:not(.groupStart_d5deea){
+	min-height: 30px !important;
+}
+.messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .groupStart_d5deea{
+	min-height: 80px !important;
+}
+
 .messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea, + .divider_d5deea, + .scrollerSpacer_e2e187, + .backgroundFlash_d5deea .groupStart_d5deea) .groupStart_d5deea,
 .divider_d5deea+.messageListItem_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea) .message_d5deea,
 .divider_d5deea+.backgroundFlash_d5deea:has(+ .messageListItem_d5deea .groupStart_d5deea) .message_d5deea,
@@ -2674,10 +2681,11 @@ html[style^="font-size: 93.75%;"] {
 	box-shadow: none !important;
 }
 
-.groupStart_d5deea{
-	min-height: 80px !important;
-}
-
 .wrapper_c721cc {
 	display: none;
+}
+
+.systemMessage_d5deea{
+	display: flex;
+	align-items: center;
 }
