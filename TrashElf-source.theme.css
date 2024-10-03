@@ -2689,3 +2689,15 @@ html[style^="font-size: 93.75%;"] {
 	display: flex;
 	align-items: center;
 }
+
+.channelAppLauncher_df39bd{
+	margin-top: calc(var(--dplus-spacing-app) + 0.5%) !important;
+}
+
+button.button_df39bd{
+	background-color: var(--dplus-bgc-chatmsg);
+}
+
+.panel_bf1a22.activityPanel_a4d4d9 {
+	background-color: var(--dplus-bgc-chatmsg);
+}
