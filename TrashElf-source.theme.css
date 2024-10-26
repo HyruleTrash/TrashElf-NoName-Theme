@@ -2682,16 +2682,27 @@ html[style^="font-size: 93.75%;"] {
 }
 
 .wrapper_c721cc {
-	display: none;
+    display: none;
 }
 
 .systemMessage_d5deea{
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.channelAppLauncher_df39bd{
-	margin-top: calc(var(--dplus-spacing-app) + 0.5%) !important;
+.channelTextArea_a7d72e {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.channelTextArea_a7d72e > *{
+    background-color: var(--background-secondary);
+    padding-right: 0.5rem;
+}
+
+.channelAppLauncher_df39bd {
+    margin: 0.5rem !important;
 }
 
 button.button_df39bd{
