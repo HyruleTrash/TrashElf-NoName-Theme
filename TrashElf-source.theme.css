@@ -2694,6 +2694,7 @@ html[style^="font-size: 93.75%;"] {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 0;
 }
 
 .channelTextArea_a7d72e > *{
