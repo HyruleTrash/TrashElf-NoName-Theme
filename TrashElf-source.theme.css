@@ -2717,3 +2717,29 @@ button.button_df39bd{
 .layer_c9e2da {
 	padding: 0;
 }
+
+.channelTextArea_bdf0de {
+    margin-bottom: 0;
+    background-color: transparent;
+    display: flow;
+    align-content: center;
+    overflow-y: hidden;
+    border-radius: 8px;
+}
+
+.channelTextArea_bdf0de > *{
+    background-color: var(--dplus-bgc-chatmsg);
+    scrollbar-color: var(--dplus-accent-ui) var(--dplus-bgc-chatmsg);
+}
+
+.channelAppLauncher_df39bd{
+    margin: 0 0 0 1rem !important;
+}
+
+.form_a7d72e{
+    margin-top: 1rem;
+}
+
+.container_adcaac {
+    background-color: var(--background-primary);
+}
