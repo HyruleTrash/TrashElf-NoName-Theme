@@ -2743,3 +2743,7 @@ button.button_df39bd{
 .container_adcaac {
     background-color: var(--background-primary);
 }
+
+.typing_d7ebeb{
+	transform: translateY(-1.75rem);
+}
