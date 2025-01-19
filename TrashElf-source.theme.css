@@ -2719,6 +2719,7 @@ button.button_df39bd{
 }
 
 .channelTextArea_bdf0de {
+    overflow: visible;
     margin-bottom: 0;
     background-color: transparent;
     display: flow;
